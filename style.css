@@ -1,0 +1,47 @@
+.logo{
+    width: 80px;
+}
+.menu-header{
+    margin-bottom: 50px;
+}
+#display-item{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 10px;
+margin: 100px;
+}
+.meal-card{
+    width: 18rem;
+}
+.meal-title{
+    background-color: rgb(240, 240, 240);
+}
+.meal-details {
+    width: 300px;
+    position: relative;
+    left: 40%;
+}
+.not-found{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.689);
+    padding: 20px;
+    position: relative;
+    left: 38%;
+    border-radius: 15px;
+}
+#search-field{
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+}
+.search-btn{
+    border-radius: 0 10px 10px 0;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+.search-btn:hover{
+    background-color: rgb(18, 18, 149);
+}
